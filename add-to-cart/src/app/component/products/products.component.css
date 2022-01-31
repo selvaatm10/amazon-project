@@ -1,0 +1,39 @@
+.card-top{
+    border: 1px solid #ccc;
+}
+.item img{
+    width: 64px;
+    padding-top: 10px;
+}
+.item{
+    margin: 0px 15px;
+    text-align: center;
+}
+.item h6:hover{
+    color: blue;
+}
+
+.over-flow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+    transition: 0.3s ease-in-out;
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.card{
+    margin: 45px;
+}
+.btn{
+    margin-bottom: 20px;
+}
